@@ -1,0 +1,418 @@
+2026-11-15 11:11:01.325 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.21.2.85:8501
+
+  Help agents write better Streamlit apps?
+  Install the official Streamlit skills by running streamlit skills in your terminal.
+
+2026-11-15 11:11:04.085 Script compilation error
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 754, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\magic.py", line 44, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+  File "C:\Users\mailt\AppData\Local\Programs\Python\Python315\Lib\ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize,
+                   module=module)
+  File "c:\Users\mailt\Downloads\edho okati\app.py", line 428
+    st.markdown(f"**Risk Category:** <span style="color:{color}; font-size:1.2rem; font-weight:700;">{tier} Risk</span>", unsafe_allow_html=True)
+                                                                             ^
+SyntaxError: invalid decimal literal
+
+✓ Installed:
+  → .agents\skills\developing-with-streamlit
+
+✨ Successfully installed to c:\Users\mailt\Downloads\edho okati
+
+Note: Installed skills are symlinks to your local Streamlit environment.
+      They generally should not be committed to git.
+
+Recommended .gitignore snippet:
+  # Streamlit agent skills (environment-specific symlinks)
+  .agents\skills/developing-with-streamlit
+2026-11-15 12:11:53.882 172.21.2.85:64964 - "GET / HTTP/1.1" 200
+2026-11-15 12:11:54.092 172.21.2.85:64964 - "GET /static/media/SourceSansVF-Upright.ttf.BsWL4Kly.woff2 HTTP/1.1" 200
+2026-11-15 12:11:54.100 172.21.2.85:49527 - "GET /static/js/index.DormvYxC.js HTTP/1.1" 200
+2026-11-15 12:11:54.102 172.21.2.85:55840 - "GET /static/js/rolldown-runtime.BCiCTKAo.js HTTP/1.1" 200
+2026-11-15 12:11:54.104 172.21.2.85:61376 - "GET /static/js/emotion-is-prop-valid.esm.CkL99N7j.js HTTP/1.1" 200
+2026-11-15 12:11:54.106 172.21.2.85:50692 - "GET /static/js/emotion-styled.browser.esm.DdOkyKg_.js HTTP/1.1" 200
+2026-11-15 12:11:54.106 172.21.2.85:64197 - "GET /static/js/loglevel.DMC__dHv.js HTTP/1.1" 200
+2026-11-15 12:11:54.119 172.21.2.85:64964 - "GET /static/css/index.C1JORDN2.css HTTP/1.1" 200
+2026-11-15 12:11:54.141 172.21.2.85:55840 - "GET /static/js/react-dom.Dzbslgj4.js HTTP/1.1" 200
+2026-11-15 12:11:54.148 172.21.2.85:61376 - "GET /static/js/emotion-react.browser.esm.Dz233AqG.js HTTP/1.1" 200
+2026-11-15 12:11:54.149 172.21.2.85:50692 - "GET /static/js/src.ClCGuae5.js HTTP/1.1" 200
+2026-11-15 12:11:54.150 172.21.2.85:49527 - "GET /static/js/types.DosXGzv6.js HTTP/1.1" 200
+2026-11-15 12:11:54.151 172.21.2.85:64197 - "GET /static/js/opacities.Blb4Ho7_.js HTTP/1.1" 200
+2026-11-15 12:11:54.151 172.21.2.85:64964 - "GET /static/js/protobuf.D55wl0P7.js HTTP/1.1" 200
+2026-11-15 12:11:54.163 172.21.2.85:50692 - "GET /static/js/toString.tRXNBxtF.js HTTP/1.1" 200
+2026-11-15 12:11:54.164 172.21.2.85:61376 - "GET /static/js/isSymbol.CmW3dkoN.js HTTP/1.1" 200
+2026-11-15 12:11:54.169 172.21.2.85:49527 - "GET /static/js/_isIterateeCall.BUStsXAd.js HTTP/1.1" 200
+2026-11-15 12:11:54.169 172.21.2.85:55840 - "GET /static/js/isArrayLike.Crw2F5li.js HTTP/1.1" 200
+2026-11-15 12:11:54.176 172.21.2.85:64197 - "GET /static/js/isArrayLikeObject.B3Zf3PTL.js HTTP/1.1" 200
+2026-11-15 12:11:54.186 172.21.2.85:55840 - "GET /static/js/utils.ob4wbeQt.js HTTP/1.1" 200
+2026-11-15 12:11:54.186 172.21.2.85:61376 - "GET /static/js/_baseFlatten.IOj0lc7G.js HTTP/1.1" 200
+2026-11-15 12:11:54.186 172.21.2.85:49527 - "GET /static/js/last.DfjdtCRp.js HTTP/1.1" 200
+2026-11-15 12:11:54.187 172.21.2.85:50692 - "GET /static/js/merge.UVaQM33U.js HTTP/1.1" 200
+2026-11-15 12:11:54.193 172.21.2.85:64197 - "GET /static/js/UriUtil.CZTdJmE_.js HTTP/1.1" 200
+2026-11-15 12:11:54.203 172.21.2.85:50692 - "GET /static/js/useEmotionTheme.CMOlE5Fg.js HTTP/1.1" 200
+2026-11-15 12:11:54.204 172.21.2.85:55840 - "GET /static/js/useCrossOriginAttribute.bh_PwhC9.js HTTP/1.1" 200
+2026-11-15 12:11:54.207 172.21.2.85:49527 - "GET /static/js/styled-components.XLtagUku.js HTTP/1.1" 200
+2026-11-15 12:11:54.207 172.21.2.85:61376 - "GET /static/js/useFloatingOverlay.DbDkOVFr.js HTTP/1.1" 200
+2026-11-15 12:11:54.215 172.21.2.85:64964 - "GET /static/js/Tooltip.BGkP9bdt.js HTTP/1.1" 200
+2026-11-15 12:11:54.216 172.21.2.85:64197 - "GET /static/js/lib.DTkPmFNq.js HTTP/1.1" 200
+2026-11-15 12:11:54.228 172.21.2.85:50692 - "GET /static/js/space-separated-tokens.tMK6mh18.js HTTP/1.1" 200
+2026-11-15 12:11:54.230 172.21.2.85:61376 - "GET /static/js/lib.BsvoAB7F.js HTTP/1.1" 200
+2026-11-15 12:11:54.230 172.21.2.85:55840 - "GET /static/js/lib.BRCtjBvA.js HTTP/1.1" 200
+2026-11-15 12:11:54.238 172.21.2.85:49527 - "GET /static/js/preload-helper.CRzLMJPS.js HTTP/1.1" 200
+2026-11-15 12:11:54.239 172.21.2.85:64964 - "GET /static/js/StreamlitMarkdown.oOG-xoxw.js HTTP/1.1" 200
+2026-11-15 12:11:54.239 172.21.2.85:64197 - "GET /static/js/ErrorElement.CdpA6bz6.js HTTP/1.1" 200
+2026-11-15 12:11:54.268 172.21.2.85:55840 - "GET /static/js/_baseProperty.BV6HSwpm.js HTTP/1.1" 200
+2026-11-15 12:11:54.268 172.21.2.85:50692 - "GET /static/js/_baseEach.PLhpSRgM.js HTTP/1.1" 200
+2026-11-15 12:11:54.269 172.21.2.85:61376 - "GET /static/js/_baseIsEqual.sdZCjgvS.js HTTP/1.1" 200
+2026-11-15 12:11:54.274 172.21.2.85:49527 - "GET /static/js/FlexContext.BkFprQkj.js HTTP/1.1" 200
+2026-11-15 12:11:54.274 172.21.2.85:64197 - "GET /static/js/utils.BJVSE7F9.js HTTP/1.1" 200
+2026-11-15 12:11:54.304 172.21.2.85:50692 - "GET /static/js/Icon.D6z6tTSi.js HTTP/1.1" 200
+2026-11-15 12:11:54.308 172.21.2.85:61376 - "GET /static/js/DynamicIcon.DBX1tTbE.js HTTP/1.1" 200
+2026-11-15 12:11:54.309 172.21.2.85:55840 - "GET /static/js/useDescription.BB3ShmHg.js HTTP/1.1" 200
+2026-11-15 12:11:54.311 172.21.2.85:49527 - "GET /static/js/shim.DT7uHSse.js HTTP/1.1" 200
+2026-11-15 12:11:54.312 172.21.2.85:64964 - "GET /static/js/useCollection.DU7tSg4K.js HTTP/1.1" 200
+2026-11-15 12:11:54.313 172.21.2.85:64197 - "GET /static/js/Text.RYl_ExSr.js HTTP/1.1" 200
+2026-11-15 12:11:54.321 172.21.2.85:50692 - "GET /static/js/useLabel.BAkLcsHg.js HTTP/1.1" 200
+2026-11-15 12:11:54.326 172.21.2.85:61376 - "GET /static/js/NumberFormatter.nhsGk7J2.js HTTP/1.1" 200
+2026-11-15 12:11:54.326 172.21.2.85:55840 - "GET /static/js/LiveAnnouncer.CRX7YBAA.js HTTP/1.1" 200
+2026-11-15 12:11:54.329 172.21.2.85:64964 - "GET /static/js/number.CgCAQqZj.js HTTP/1.1" 200
+2026-11-15 12:11:54.329 172.21.2.85:49527 - "GET /static/js/ProgressBar.BbP4hvQX.js HTTP/1.1" 200
+2026-11-15 12:11:54.329 172.21.2.85:64197 - "GET /static/js/BaseButton.GsR4p1Eu.js HTTP/1.1" 200
+2026-11-15 12:11:54.337 172.21.2.85:55840 - "GET /static/js/useResizeObserver.CWV4GVHX.js HTTP/1.1" 200
+2026-11-15 12:11:54.338 172.21.2.85:50692 - "GET /static/js/FormClearHelper.uMwNzhNQ.js HTTP/1.1" 200
+2026-11-15 12:11:54.338 172.21.2.85:61376 - "GET /static/js/useTimeout.odDhD3su.js HTTP/1.1" 200
+2026-11-15 12:11:54.344 172.21.2.85:64197 - "GET /static/js/ContentCopy.esm.C1nEcpQW.js HTTP/1.1" 200
+2026-11-15 12:11:54.344 172.21.2.85:64964 - "GET /static/js/Check.esm.SwE3eUIH.js HTTP/1.1" 200
+2026-11-15 12:11:54.345 172.21.2.85:49527 - "GET /static/js/index.esm.CnlgfcEa.js HTTP/1.1" 200
+2026-11-15 12:11:54.351 172.21.2.85:55840 - "GET /static/js/Toolbar.IoDGB_NU.js HTTP/1.1" 200
+2026-11-15 12:11:54.353 172.21.2.85:50692 - "GET /static/js/useCopyToClipboard.Cdni2W2w.js HTTP/1.1" 200
+2026-11-15 12:11:54.354 172.21.2.85:61376 - "GET /static/js/useRequiredContext.fKi1tqMI.js HTTP/1.1" 200
+2026-11-15 12:11:54.423 172.21.2.85:61376 - "GET /static/media/MaterialSymbols-Rounded.nEdyypZU.woff2 HTTP/1.1" 200
+2026-11-15 12:11:54.446 172.21.2.85:61376 - "GET /_stcore/health HTTP/1.1" 200
+2026-11-15 12:11:54.447 172.21.2.85:50692 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-11-15 12:11:54.950 172.21.2.85:54840 - "WebSocket /_stcore/stream" [accepted]
+2026-11-15 12:11:54.950 connection open
+2026-11-15 12:11:54.956 172.21.2.85:50692 - "GET /favicon.png HTTP/1.1" 200
+2026-11-15 12:11:56.393 172.21.2.85:50692 - "GET /static/js/Spinner.uHSi1wGg.js HTTP/1.1" 200
+2026-11-15 12:11:56.433 172.21.2.85:50692 - "GET /static/media/SourceCodeVF-Upright.ttf.BjWn63N-.woff2 HTTP/1.1" 200
+2026-11-15 12:11:59.945 172.21.2.85:50692 - "GET /static/js/Radio.BWQwdNIB.js HTTP/1.1" 200
+2026-11-15 12:11:59.948 172.21.2.85:52526 - "GET /static/js/useFormValidation.D2i_isRP.js HTTP/1.1" 200
+2026-11-15 12:11:59.949 172.21.2.85:56067 - "GET /static/js/useField.CsWac_7E.js HTTP/1.1" 200
+2026-11-15 12:11:59.951 172.21.2.85:49851 - "GET /static/js/useFormReset.Dsqx1XhY.js HTTP/1.1" 200
+2026-11-15 12:11:59.951 172.21.2.85:58644 - "GET /static/js/useSlot.CXZFle1D.js HTTP/1.1" 200
+2026-11-15 12:11:59.955 172.21.2.85:51572 - "GET /static/js/WidgetLabel.C381QnN0.js HTTP/1.1" 200
+2026-11-15 12:11:59.964 172.21.2.85:50692 - "GET /static/js/styled-components.kM4tXvFQ.js HTTP/1.1" 200
+2026-11-15 12:11:59.968 172.21.2.85:56067 - "GET /static/js/WidgetLabelHelpIconInline.COAzYW2l.js HTTP/1.1" 200
+2026-11-15 12:11:59.969 172.21.2.85:52526 - "GET /static/js/useBasicWidgetState.8xeaSejc.js HTTP/1.1" 200
+2026-11-15 12:12:00.018 172.21.2.85:56067 - "GET /static/js/Selectbox.7rsxE6LC.js HTTP/1.1" 200
+2026-11-15 12:12:00.022 172.21.2.85:58644 - "GET /static/js/Input.gDbGmgmu.js HTTP/1.1" 200
+2026-11-15 12:12:00.022 172.21.2.85:50692 - "GET /static/js/Autocomplete.egUn8L68.js HTTP/1.1" 200
+2026-11-15 12:12:00.022 172.21.2.85:49851 - "GET /static/js/useCollator.n4rV5EDq.js HTTP/1.1" 200
+2026-11-15 12:12:00.022 172.21.2.85:51572 - "GET /static/js/useLoadMoreSentinel.Cy5VvGgG.js HTTP/1.1" 200
+2026-11-15 12:12:00.024 172.21.2.85:52526 - "GET /static/js/useMenuTrigger.DhEQ922j.js HTTP/1.1" 200
+2026-11-15 12:12:00.029 172.21.2.85:56067 - "GET /static/js/useSyncComboBoxEnterTargetFocus.hm3aTVdR.js HTTP/1.1" 200
+2026-11-15 12:12:00.034 172.21.2.85:52526 - "GET /static/js/sortBy.BN5z75-Y.js HTTP/1.1" 200
+2026-11-15 12:12:00.037 172.21.2.85:58644 - "GET /static/js/_baseMap.OhVc4KF-.js HTTP/1.1" 200
+2026-11-15 12:12:00.039 172.21.2.85:49851 - "GET /static/js/useTextField.bKQiMZTR.js HTTP/1.1" 200
+2026-11-15 12:12:00.042 172.21.2.85:50692 - "GET /static/js/ErrorOutline.esm.DyT67HL2.js HTTP/1.1" 200
+2026-11-15 12:12:00.042 172.21.2.85:51572 - "GET /static/js/useFilter.CUWaaKZn.js HTTP/1.1" 200
+2026-11-15 12:12:00.049 172.21.2.85:56067 - "GET /static/js/Cancel.esm.B65EWHgo.js HTTP/1.1" 200
+2026-11-15 12:12:00.049 172.21.2.85:52526 - "GET /static/js/WidgetLabelHelpIcon.DIAPaBJl.js HTTP/1.1" 200
+2026-11-15 12:12:00.051 172.21.2.85:58644 - "GET /static/js/requiredField.CNcKXcSP.js HTTP/1.1" 200
+2026-11-15 12:12:00.052 172.21.2.85:49851 - "GET /static/js/Metric.MSVuxtnf.js HTTP/1.1" 200
+2026-11-15 12:12:00.054 172.21.2.85:51572 - "GET /static/js/CustomTheme.2MxQEPdB.js HTTP/1.1" 200
+2026-11-15 12:12:00.054 172.21.2.85:50692 - "GET /static/js/printWidthCap.XgZcRr64.js HTTP/1.1" 200
+2026-11-15 12:12:00.062 172.21.2.85:58644 - "GET /static/js/formatNumber.BzIzXinm.js HTTP/1.1" 200
+2026-11-15 12:12:00.063 172.21.2.85:56067 - "GET /static/js/numbro.BARYlD0b.js HTTP/1.1" 200
+2026-11-15 12:12:00.064 172.21.2.85:49851 - "GET /static/js/sprintfjs.Bn3mg5kT.js HTTP/1.1" 200
+2026-11-15 12:12:00.065 172.21.2.85:52526 - "GET /static/js/loadVegaEmbed.B2YPPFq-.js HTTP/1.1" 200
+2026-11-15 12:12:00.125 172.21.2.85:52526 - "GET /static/js/resolveDefaultExport.uGkX5Ctk.js HTTP/1.1" 200
+2026-11-15 12:12:00.129 172.21.2.85:56067 - "GET /static/js/withFullScreenWrapper.B6XxlEEm.js HTTP/1.1" 200
+2026-11-15 12:12:00.131 172.21.2.85:49851 - "GET /static/js/PlotlyChart.D9Z0_fxz.js HTTP/1.1" 200
+2026-11-15 12:12:00.230 172.21.2.85:58644 - "GET /static/js/withCalculatedWidth.CCwwmAXk.js HTTP/1.1" 200
+2026-11-15 12:12:00.253 172.21.2.85:51572 - "GET /static/js/formatMoment.CVxEWQ-Q.js HTTP/1.1" 200
+2026-11-15 12:12:00.254 172.21.2.85:52526 - "GET /static/js/Slider.WU6er_Bo.js HTTP/1.1" 200
+2026-11-15 12:12:00.254 172.21.2.85:56067 - "GET /static/js/moment.4ragD6OA.js HTTP/1.1" 200
+2026-11-15 12:12:00.378 172.21.2.85:56067 - "GET /static/js/TextInput.MPWivlu9.js HTTP/1.1" 200
+2026-11-15 12:12:00.378 172.21.2.85:52526 - "GET /static/js/TextField.DdIhIiQe.js HTTP/1.1" 200
+2026-11-15 12:12:00.379 172.21.2.85:58644 - "GET /static/js/inputUtils.CnlRnOxS.js HTTP/1.1" 200
+2026-11-15 12:12:00.379 172.21.2.85:51572 - "GET /static/js/InputInstructions.aWDQxtQS.js HTTP/1.1" 200
+2026-11-15 12:12:00.382 172.21.2.85:50692 - "GET /static/js/useDebouncedCallback.By9MfI_m.js HTTP/1.1" 200
+2026-11-15 12:12:01.920 172.21.2.85:56067 - "GET /static/js/Multiselect.DBsRqIhx.js HTTP/1.1" 200
+2026-11-15 12:12:01.920 172.21.2.85:51572 - "GET /static/js/useUpdateUiValue.Crj2LZcQ.js HTTP/1.1" 200
+2026-11-15 12:12:01.945 172.21.2.85:56067 - "GET /static/js/createDownloadLinkElement.CbtBGf4k.js HTTP/1.1" 200
+2026-11-15 12:12:01.945 172.21.2.85:51572 - "GET /static/js/DownloadButton.DdynO2sY.js HTTP/1.1" 200
+2026-11-15 12:12:01.983 172.21.2.85:49851 - "GET /static/js/Button.CORxUu4r.js HTTP/1.1" 200
+2026-11-15 12:12:02.687 172.21.2.85:49851 - "GET /media/14ba014dd36db8490c53cc1f2bfee97d.csv HTTP/1.1" 200
+2026-11-15 12:13:51.882 172.21.2.85:53418 - "GET /media/67a6f43a9aabfc06840783c710c30933.csv HTTP/1.1" 200
+2026-11-15 12:14:38.458 172.21.2.85:61445 - "GET /static/js/DateInput.BHx02NDa.js HTTP/1.1" 200
+2026-11-15 12:14:38.458 172.21.2.85:56653 - "GET /static/js/DateField.DVmCJdzE.js HTTP/1.1" 200
+2026-11-15 12:14:38.460 172.21.2.85:63370 - "GET /static/js/ReorderedSegments.C-UoaJqK.js HTTP/1.1" 200
+2026-11-15 12:14:38.463 172.21.2.85:58251 - "GET /static/js/NumberInput.fUK7ifRa.js HTTP/1.1" 200
+2026-11-15 12:15:02.164 172.21.2.85:56786 - "GET /static/js/DataFrame.-f9-1zS0.js HTTP/1.1" 200
+2026-11-15 12:15:02.167 172.21.2.85:60567 - "GET /static/js/arrowFormatUtils.BeTrQZrd.js HTTP/1.1" 200
+2026-11-15 12:15:02.169 172.21.2.85:58409 - "GET /static/js/_baseIndexOf.CYLdY-L6.js HTTP/1.1" 200
+2026-11-15 12:15:02.170 172.21.2.85:63475 - "GET /static/js/_hasUnicode.Cp9Achgk.js HTTP/1.1" 200
+2026-11-15 12:15:02.172 172.21.2.85:57021 - "GET /static/js/recordbatch.BW_wpVG-.js HTTP/1.1" 200
+2026-11-15 12:15:02.173 172.21.2.85:53401 - "GET /static/js/Quiver.yoqUC9Km.js HTTP/1.1" 200
+2026-11-15 12:15:02.185 172.21.2.85:58409 - "GET /static/css/DataFrame.DUkanX9_.css HTTP/1.1" 200
+2026-11-15 12:15:02.185 172.21.2.85:63475 - "GET /static/js/range.DL19EGGd.js HTTP/1.1" 200
+2026-11-15 12:15:02.186 172.21.2.85:53401 - "GET /static/js/unzip.BaBcYNJz.js HTTP/1.1" 200
+2026-11-15 12:15:02.190 172.21.2.85:57021 - "GET /static/js/serialization.DdOIrmtN.js HTTP/1.1" 200
+2026-11-15 12:15:02.197 172.21.2.85:58409 - "GET /static/js/isEmpty.DjruDP6v.js HTTP/1.1" 200
+2026-11-15 12:15:02.197 172.21.2.85:56786 - "GET /static/js/isString.C7-zy-83.js HTTP/1.1" 200
+2026-11-15 12:15:02.197 172.21.2.85:53401 - "GET /static/js/toConsumableArray.CuK4Z8lg.js HTTP/1.1" 200
+2026-11-15 12:15:02.198 172.21.2.85:63475 - "GET /static/js/Delete.esm.x8ZdkABx.js HTTP/1.1" 200
+2026-11-15 12:15:02.203 172.21.2.85:57021 - "GET /static/js/FileDownload.esm.CaE8WnNz.js HTTP/1.1" 200
+2026-11-15 12:15:02.208 172.21.2.85:53401 - "GET /static/js/dist.CxLAD45d.js HTTP/1.1" 200
+2026-11-15 12:15:02.208 172.21.2.85:56786 - "GET /static/js/_baseAssignValue.DLGCXCW0.js HTTP/1.1" 200
+2026-11-15 12:15:02.209 172.21.2.85:58409 - "GET /static/js/reactJsonViewCompat.TQCWbwC7.js HTTP/1.1" 200
+2026-11-15 12:15:02.210 172.21.2.85:63475 - "GET /static/js/pandasStylerUtils.o8U1s4VR.js HTTP/1.1" 200
+2026-11-15 12:15:02.212 172.21.2.85:60567 - "GET /static/js/checkboxIndicatorStyles.Cz7_ncjO.js HTTP/1.1" 200
+2026-11-15 12:41:56.778 172.21.2.85:53368 - "GET /_stcore/health HTTP/1.1" 200
+2026-11-15 12:41:56.800 172.21.2.85:51854 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-11-15 12:41:56.831 172.21.2.85:51917 - "WebSocket /_stcore/stream" [accepted]
+2026-11-15 12:41:56.831 connection open
+2026-11-15 14:19:21.531 172.21.2.85:55281 - "GET /_stcore/health HTTP/1.1" 200
+2026-11-15 14:19:21.599 172.21.2.85:55281 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-11-15 14:19:27.895 172.21.2.85:58987 - "WebSocket /_stcore/stream" [accepted]
+2026-11-15 14:19:27.896 connection open
+2026-11-15 14:29:20.991 172.21.2.85:63231 - "GET / HTTP/1.1" 304
+2026-11-15 14:29:21.738 172.21.2.85:63231 - "GET /_stcore/health HTTP/1.1" 200
+2026-11-15 14:29:21.741 172.21.2.85:60671 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-11-15 14:29:22.950 172.21.2.85:57618 - "WebSocket /_stcore/stream" [accepted]
+2026-11-15 14:29:22.951 connection open
+2026-11-15 14:29:30.874 172.21.2.85:55004 - "GET /media/6b7f77e69e2a0b2bd91b6c87de99dd11.csv HTTP/1.1" 200
+2026-11-15 14:29:34.667 172.21.2.85:55004 - "GET /_stcore/health HTTP/1.1" 200
+2026-11-15 14:29:34.672 172.21.2.85:53432 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-11-15 14:29:34.686 172.21.2.85:50223 - "WebSocket /_stcore/stream" [accepted]
+2026-11-15 14:29:34.686 connection open
+2026-11-15 14:55:26.059 172.21.2.85:63544 - "GET /_stcore/health HTTP/1.1" 200
+2026-11-15 14:55:26.061 172.21.2.85:63393 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-11-15 14:55:26.090 172.21.2.85:62296 - "WebSocket /_stcore/stream" [accepted]
+2026-11-15 14:55:26.090 connection open
+2026-11-15 15:23:17.678 Uncaught app execution
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+  File "c:\Users\mailt\Downloads\edho okati\app.py", line 57, in <module>
+    bundle = load_model_bundle(str(MODEL_PATH))
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 762, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 823, in _get_or_create_cached_value
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 887, in _handle_cache_miss
+  File "c:\Users\mailt\Downloads\edho okati\app.py", line 55, in load_model_bundle
+    return joblib.load(path)
+           ~~~~~~~~~~~^^^^^^
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\joblib\numpy_pickle.py", line 755, in load
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\joblib\numpy_pickle.py", line 632, in _unpickle
+  File "C:\Users\mailt\AppData\Local\Programs\Python\Python315\Lib\pickle.py", line 1346, in load
+    dispatch[key[0]](self)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\mailt\AppData\Local\Programs\Python\Python315\Lib\pickle.py", line 1676, in load_stack_global
+    self.append(self.find_class(module, name))
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\mailt\AppData\Local\Programs\Python\Python315\Lib\pickle.py", line 1717, in find_class
+    __import__(module, level=0)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'xgboost'
+2026-11-15 15:23:21.404 172.21.2.85:61605 - "GET / HTTP/1.1" 500
+2026-11-15 15:23:21.404 Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 355, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\to_thread.py", line 65, in run_sync
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2779, in run_sync_in_worker_thread
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1124, in run
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'c:\\Users\\mailt\\Downloads\\edho okati\\.venv\\Lib\\site-packages\\streamlit\\static\\index.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_path_security_middleware.py", line 174, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\sessions.py", line 92, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_gzip_middleware.py", line 208, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 683, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 704, in app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 464, in handle
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_static_routes.py", line 151, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\staticfiles.py", line 105, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 358, in __call__
+RuntimeError: File at path c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\static\index.html does not exist.
+2026-11-15 15:23:22.426 172.21.2.85:53690 - "GET /favicon.ico HTTP/1.1" 500
+2026-11-15 15:23:22.427 Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 355, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\to_thread.py", line 65, in run_sync
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2779, in run_sync_in_worker_thread
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1124, in run
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'c:\\Users\\mailt\\Downloads\\edho okati\\.venv\\Lib\\site-packages\\streamlit\\static\\index.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_path_security_middleware.py", line 174, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\sessions.py", line 92, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_gzip_middleware.py", line 220, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\gzip.py", line 79, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\gzip.py", line 104, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 683, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 704, in app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 464, in handle
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_static_routes.py", line 151, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\staticfiles.py", line 105, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 358, in __call__
+RuntimeError: File at path c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\static\index.html does not exist.
+2026-11-15 15:24:53.261 127.0.0.1:60269 - "GET /_stcore/health HTTP/1.1" 200
+2026-11-15 15:24:53.262 127.0.0.1:54216 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-11-15 15:24:53.576 127.0.0.1:60693 - "WebSocket /_stcore/stream" [accepted]
+2026-11-15 15:24:53.577 connection open
+2026-11-15 15:25:07.484 127.0.0.1:57693 - "GET / HTTP/1.1" 500
+2026-11-15 15:25:07.484 Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 355, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\to_thread.py", line 65, in run_sync
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2779, in run_sync_in_worker_thread
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1124, in run
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'c:\\Users\\mailt\\Downloads\\edho okati\\.venv\\Lib\\site-packages\\streamlit\\static\\index.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_path_security_middleware.py", line 174, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\sessions.py", line 92, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_gzip_middleware.py", line 208, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 683, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 704, in app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 464, in handle
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_static_routes.py", line 151, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\staticfiles.py", line 105, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 358, in __call__
+RuntimeError: File at path c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\static\index.html does not exist.
+2026-11-15 15:25:07.880 127.0.0.1:53964 - "GET /favicon.ico HTTP/1.1" 500
+2026-11-15 15:25:07.881 Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 355, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\to_thread.py", line 65, in run_sync
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2779, in run_sync_in_worker_thread
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1124, in run
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'c:\\Users\\mailt\\Downloads\\edho okati\\.venv\\Lib\\site-packages\\streamlit\\static\\index.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_path_security_middleware.py", line 174, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\sessions.py", line 92, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_gzip_middleware.py", line 220, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\gzip.py", line 79, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\gzip.py", line 104, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 683, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 704, in app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 464, in handle
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_static_routes.py", line 151, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\staticfiles.py", line 105, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 358, in __call__
+RuntimeError: File at path c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\static\index.html does not exist.
+2026-11-15 15:33:28.402 172.21.2.85:64228 - "GET / HTTP/1.1" 500
+2026-11-15 15:33:28.404 Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 355, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\to_thread.py", line 65, in run_sync
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2779, in run_sync_in_worker_thread
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1124, in run
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'c:\\Users\\mailt\\Downloads\\edho okati\\.venv\\Lib\\site-packages\\streamlit\\static\\index.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_path_security_middleware.py", line 174, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\sessions.py", line 92, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_gzip_middleware.py", line 208, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 683, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 704, in app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 464, in handle
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_static_routes.py", line 151, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\staticfiles.py", line 105, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 358, in __call__
+RuntimeError: File at path c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\static\index.html does not exist.
+2026-11-15 15:33:30.045 172.21.2.85:51856 - "GET /favicon.ico HTTP/1.1" 500
+2026-11-15 15:33:30.046 Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 355, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\to_thread.py", line 65, in run_sync
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2779, in run_sync_in_worker_thread
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1124, in run
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'c:\\Users\\mailt\\Downloads\\edho okati\\.venv\\Lib\\site-packages\\streamlit\\static\\index.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_path_security_middleware.py", line 174, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\sessions.py", line 92, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_gzip_middleware.py", line 220, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\gzip.py", line 79, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\gzip.py", line 104, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 683, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 704, in app
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\routing.py", line 464, in handle
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_static_routes.py", line 151, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\staticfiles.py", line 105, in __call__
+  File "c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\starlette\responses.py", line 358, in __call__
+RuntimeError: File at path c:\Users\mailt\Downloads\edho okati\.venv\Lib\site-packages\streamlit\static\index.html does not exist.
